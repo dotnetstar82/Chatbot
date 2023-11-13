@@ -78,7 +78,7 @@ function changeSendButtonColor() {
 }
 
 //const url = 'http://localhost';
-const url = 'https://wsb.goextmx.com';
+const url = 'https://api-chatbot.trendbliss.com';
 function doAddHistory(msg, owner)
 {
 	fetch(url + "/api/message", {
